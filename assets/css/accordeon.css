@@ -1,0 +1,55 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transition: 0.25s;
+}
+
+.accordion:hover {
+    border: 1px solid rgb(138, 43, 226);
+    
+}
+
+
+.accordion .trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    text-align: initial;
+}
+
+.accordion .trigger::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: space-between;
+    transform: rotate(90deg);
+    background-image: url('/assets/img/icons/bullets.svg');
+}
+
+.accordion .trigger:hover {
+    cursor: pointer;
+}
+
+.accordion .content {
+    display: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgba(85, 86, 158,.1);
+    border-color: #55569E;
+}
+
+

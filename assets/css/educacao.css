@@ -1,0 +1,48 @@
+.educacao{
+    display: flex;
+    flex-direction: column;
+    padding:0 2rem;
+}
+
+.conquista h3 {
+    text-align: center;
+}
+
+.educacao .conquista ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.conquista li {
+    list-style: none;
+}
+
+.conquista li img {
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.educacao .other ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:768px) {
+    
+    .educacao{
+        display: grid;
+        
+    }
+}

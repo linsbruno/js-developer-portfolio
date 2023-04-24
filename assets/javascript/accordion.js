@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $('#idioma').click(function(){
+        $('#idioma-inner').slideToggle();
+    })
+    $('#portfolio').click(function(){
+        $('#portfolio-inner').slideToggle();
+    })
+    $('#skills').click(function(){
+        $('#skills-inner').slideToggle();
+    })
+    $('#experience').click(function(){
+        $('#experience-inner').slideToggle();
+    })
+    $('#dio').click(function(){
+        $('#dio-inner').slideToggle();
+    })
+})
